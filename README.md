@@ -34,7 +34,8 @@ CONFIG:
 # 📈ROADMAP
 - Emojis
 - Money
-- export waiting location
+- Maks / hide
+- Export waiting location
 - Framework qbx and ESX
 
 # 🧠LINKS
