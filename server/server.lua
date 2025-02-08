@@ -1,0 +1,5 @@
+RegisterServerEvent('getPlayerPing')
+AddEventHandler('getPlayerPing', function(playerId)
+    local ping = GetPlayerPing(playerId)
+    TriggerClientEvent('sendPlayerPing', playerId, ping)
+end)
