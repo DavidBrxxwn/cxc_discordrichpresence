@@ -1,19 +1,20 @@
 fx_version 'cerulean'
-lua54 'yes'
 game 'gta5'
+lua54 'yes'
 
 author 'David Brxxwn | Cxmmunity Club'
-description 'cxc_discordrichpresence | https://discord.com/invite/PjM3997JnW'
+description 'cxc_supporthub | https://discord.com/invite/EcpCFyX4DC'
 version '1.0.0'
 
 shared_scripts {
-    'config.lua',
+	"@ox_lib/init.lua",
+	"shared/*.lua'
 }
 
 client_scripts {
-    'client/**.lua'
+	'client/*.lua'
 }
 
 server_scripts {
-    'server/**.lua'
+	'server/*.lua'
 }
