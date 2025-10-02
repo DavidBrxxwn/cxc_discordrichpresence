@@ -32,9 +32,9 @@ CONFIG:
 - Discord Bot: https://discord.com/developers/applications
 
 # 📚HELPFUL LINKS
-- GTAV Mods: https://www.gta5-mods.com/ (a database with addons such as vehicles, maps, graphics upgrades, and more)
-- GTACars: https://gtacars.net/ (a complete database with detailed information about all vehicles)
-- Plebmasters: https://forge.plebmasters.de/ (a database with detailed information on props, clothing, and more)
+- GTAV Mods: https://www.gta5-mods.com/
+- GTACars: https://gtacars.net/
+- Plebmasters: https://forge.plebmasters.de/
 
 # 🧠FIVEM DOCS
 - FiveM Docs: https://docs.fivem.net/docs/
