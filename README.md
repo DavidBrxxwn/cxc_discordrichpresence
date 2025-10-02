@@ -29,8 +29,7 @@ CONFIG:
 
 # 🚨DEPENDENCY 
 - qb-core: https://github.com/qbcore-framework/qb-core
-- ox_lib: https://github.com/overextended/ox_lib
-- ox_inventory: https://github.com/overextended/ox_inventory
+- Discord Bot: https://discord.com/developers/applications
 
 # 📚HELPFUL LINKS
 - GTAV Mods: https://www.gta5-mods.com/ (a database with addons such as vehicles, maps, graphics upgrades, and more)
