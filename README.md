@@ -4,7 +4,7 @@ A FiveM script that updates Discord Rich Presence with customizable player info 
 Showcase:
 
 # ✨FEATURES
-- Debug = false -- Enables or disables the debug mode. If true, debug messages are shown.
+- Debug = true -- Enables or disables the debug mode. If true, debug messages are shown.
 - Locale = 'en' -- Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish
 - Framework = 'qb' -- Framework selection: 'qb' for QBCore or 'esx' for ESX Framework
 - UpdateInterval = 30000 -- Interval in milliseconds for the application to auto-update (30000 ms = 30 seconds).
@@ -13,20 +13,20 @@ Showcase:
 - BigLogoText = '' -- Text shown when hovering over the big logo.
 - SmallLogo = '' -- Name/URL for the small logo that is displayed in the Discord Rich Presence.
 - SmallLogoText = '' -- Text shown when hovering over the small logo.
-- EnableButtons = false -- Specifies whether buttons are shown in the Discord Rich Presence.
-- Buttons = -- Defines the buttons that are shown, including the label text and URL.
+- EnableButtons = true -- Specifies whether buttons are shown in the Discord Rich Presence.
+- Buttons = true -- Defines the buttons that are shown, including the label text and URL.
 - Topics = true -- Specifies whether the "topics" should be shown in the Discord Rich Presence.
-- Caps = false -- If true, all text will be shown in uppercase.
+- Caps = true -- If true, all text will be shown in uppercase.
 - ID = true -- Shows the player's ID if true.
 - PlayerName = true -- Shows the player's name if true.
 - Job = true -- Shows the player's job if true.
 - PlayerCount = true -- Shows the player count if true.
-- Vehicle = false -- Shows the player's vehicle if true.
-- Health = false -- Shows the player's health if true.
-- Armor = false -- Shows the player's armor if true.
+- Vehicle = true -- Shows the player's vehicle if true.
+- Health = true -- Shows the player's health if true.
+- Armor = true -- Shows the player's armor if true.
 - StreetName = true -- Shows the street name if true.
-- Ping = false -- Shows the player's ping if true.
-- Vector4 = false -- Shows the player's location (coordinates) if true.
+- Ping = true -- Shows the player's ping if true.
+- Vector4 = true -- Shows the player's location (coordinates) if true.
 
 # 🚨DEPENDENCY 
 - qb-core (QB-Core): https://github.com/qbcore-framework/qb-core
