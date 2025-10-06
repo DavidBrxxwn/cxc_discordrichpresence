@@ -50,7 +50,7 @@ A FiveM script that updates Discord Rich Presence with customizable player info 
 - Vehicle Flags: https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-flags/
 
 # 📱SOCIAL MEDIA
-- Discord: https://discord.com/invite/PjM3997JnW
+- Discord: https://discord.com/invite/EcpCFyX4DC
 - Ko-fi: https://ko-fi.com/cxmmunityclub
 - GitHub: https://github.com/DavidBrxxwn
 
