@@ -1,14 +1,15 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
 
 author 'David Brxxwn | Cxmmunity Club'
-description 'cxc_supporthub | https://discord.com/invite/EcpCFyX4DC'
-version '1.0.0'
+discord 'https://discord.com/invite/EcpCFyX4DC'
+
+name 'cxc_discordrichpresence'
+description 'Discord Rich Presence System with QBCore and ESX Framework support'
+version '2.0.0'
 
 shared_scripts {
-	"@ox_lib/init.lua",
-	"shared/*.lua'
+	"shared/*.lua",
 }
 
 client_scripts {
