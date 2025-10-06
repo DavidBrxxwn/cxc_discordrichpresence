@@ -16,24 +16,21 @@ CONFIG:
 - SmallLogo = '' -- Name/URL for the small logo that is displayed in the Discord Rich Presence.
 - SmallLogoText = '' -- Text shown when hovering over the small logo.
 
-- Config.EnableButtons = false -- Specifies whether buttons are shown in the Discord Rich Presence.
-- Config.Buttons = { -- Defines the buttons that are shown, including the label text and URL.
-    {label = "Discord", url = "https://discord.com/invite/CxmmunityClub"}, -- Example: Button for Discord
-    {label = "Join", url = "fivem://connect/000.000.000.00:00000"} -- Example: Button to join server
-}
+- EnableButtons = false -- Specifies whether buttons are shown in the Discord Rich Presence.
+- Buttons = -- Defines the buttons that are shown, including the label text and URL.
 
-- Config.Topics = true -- Specifies whether the "topics" should be shown in the Discord Rich Presence.
-- Config.Caps = false -- If true, all text will be shown in uppercase.
-- Config.ID = true -- Shows the player's ID if true.
-- Config.PlayerName = true -- Shows the player's name if true.
-- Config.Job = true -- Shows the player's job if true.
-- Config.PlayerCount = true -- Shows the player count if true.
-- Config.Vehicle = false -- Shows the player's vehicle if true.
-- Config.Health = false -- Shows the player's health if true.
-- Config.Armor = false -- Shows the player's armor if true.
-- Config.StreetName = true -- Shows the street name if true.
-- Config.Ping = false -- Shows the player's ping if true.
-- Config.Vector4 = false -- Shows the player's location (coordinates) if true.
+- Topics = true -- Specifies whether the "topics" should be shown in the Discord Rich Presence.
+- Caps = false -- If true, all text will be shown in uppercase.
+- ID = true -- Shows the player's ID if true.
+- PlayerName = true -- Shows the player's name if true.
+- Job = true -- Shows the player's job if true.
+- PlayerCount = true -- Shows the player count if true.
+- Vehicle = false -- Shows the player's vehicle if true.
+- Health = false -- Shows the player's health if true.
+- Armor = false -- Shows the player's armor if true.
+- StreetName = true -- Shows the street name if true.
+- Ping = false -- Shows the player's ping if true.
+- Vector4 = false -- Shows the player's location (coordinates) if true.
 
 # 🚨DEPENDENCY 
 - qb-core (QB-Core): https://github.com/qbcore-framework/qb-core
