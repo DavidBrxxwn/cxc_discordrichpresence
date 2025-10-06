@@ -4,10 +4,10 @@ A FiveM script that updates Discord Rich Presence with customizable player info 
 Showcase:
 
 # ✨FEATURES
-- Debug -- Enables or disables the debug mode. If true, debug messages are shown.
-- Locale -- Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish
-- Framework -- Framework selection: 'qb' for QBCore or 'esx' for ESX Framework
-- UpdateInterval -- Interval in milliseconds for the application to auto-update (30000 ms = 30 seconds).
+- Debug = false -- Enables or disables the debug mode. If true, debug messages are shown.
+- Locale = 'en' -- Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish
+- Framework = 'qb' -- Framework selection: 'qb' for QBCore or 'esx' for ESX Framework
+- UpdateInterval = 30000 -- Interval in milliseconds for the application to auto-update (30000 ms = 30 seconds).
 - AppID = '' -- The AppID used for Discord Rich Presence identification.
 - BigLogo = '' -- Name/URL for the big logo that is displayed in the Discord Rich Presence.
 - BigLogoText = '' -- Text shown when hovering over the big logo.
