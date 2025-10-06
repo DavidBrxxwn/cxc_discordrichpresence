@@ -1,30 +1,32 @@
 Config = {}
 
-Config.debug = false  -- Enables or disables the debug mode. If true, debug messages are shown.
-Config.UpdateInterval = 30000  -- Interval in milliseconds for the application to auto-update (30000 ms = 30 seconds).
+Config.Debug = false -- Enables or disables the debug mode. If true, debug messages are shown.
+Config.Locale = 'en' -- Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish
+Config.Framework = 'qb' -- Framework selection: 'qb' for QBCore or 'esx' for ESX Framework
 
-Config.AppID = ''  -- The AppID used (e.g., for identification or API access).
-Config.BigLogo = ''  -- URL for the big logo that is displayed in the application.
-Config.BigLogoText = ''  -- Text shown next to the big logo.
-Config.SmallLogo = ''  -- URL for the small logo that is displayed in the application.
-Config.SmallLogoText = ''  -- Text shown next to the small logo.
+Config.UpdateInterval = 30000 -- Interval in milliseconds for the application to auto-update (30000 ms = 30 seconds).
 
-Config.EnableButtons = false  -- Specifies whether buttons are shown in the application.
-Config.Buttons = {  -- Defines the buttons that are shown, including the text and URL.
-    {label = "Discord", url = ""},  -- Example: Button for Discord
-    {label = "Join", url = ""}      -- Example: Button to join
+Config.AppID = '' -- The AppID used for Discord Rich Presence identification.
+Config.BigLogo = '' -- Name/URL for the big logo that is displayed in the Discord Rich Presence.
+Config.BigLogoText = '' -- Text shown when hovering over the big logo.
+Config.SmallLogo = '' -- Name/URL for the small logo that is displayed in the Discord Rich Presence.
+Config.SmallLogoText = '' -- Text shown when hovering over the small logo.
+
+Config.EnableButtons = false -- Specifies whether buttons are shown in the Discord Rich Presence.
+Config.Buttons = { -- Defines the buttons that are shown, including the label text and URL.
+    {label = "Discord", url = "https://discord.com/invite/CxmmunityClub"}, -- Example: Button for Discord
+    {label = "Join", url = "fivem://connect/000.000.000.00:00000"} -- Example: Button to join server
 }
 
-Config.ShowTopics = false  -- Specifies whether the "topics" should be shown in the application.
-Config.uppercase = false  -- If true, all text will be shown in uppercase.
-
-Config.ShowID = true  -- Shows the player's ID if true.
-Config.ShowName = true  -- Shows the player's name if true.
-Config.ShowJob = false  -- Shows the player's job if true.
-Config.ShowPlayerCount = false  -- Shows the player count if true.
-Config.ShowVehicle = false  -- Shows the player's vehicle if true.
-Config.ShowHealth = false  -- Shows the player's health if true.
-Config.ShowArmor = false  -- Shows the player's armor if true.
-Config.ShowLocation = false  -- Shows the player's location (e.g., coordinates) if true.
-Config.ShowStreetName = false  -- Shows the street name if true.
-Config.ShowPing = true  -- Shows the player's ping if true.
+Config.Topics = true -- Specifies whether the "topics" should be shown in the Discord Rich Presence.
+Config.Caps = false -- If true, all text will be shown in uppercase.
+Config.ID = true -- Shows the player's ID if true.
+Config.PlayerName = true -- Shows the player's name if true.
+Config.Job = true -- Shows the player's job if true.
+Config.PlayerCount = true -- Shows the player count if true.
+Config.Vehicle = false -- Shows the player's vehicle if true.
+Config.Health = false -- Shows the player's health if true.
+Config.Armor = false -- Shows the player's armor if true.
+Config.StreetName = true -- Shows the street name if true.
+Config.Ping = false -- Shows the player's ping if true.
+Config.Vector4 = false -- Shows the player's location (coordinates) if true.
