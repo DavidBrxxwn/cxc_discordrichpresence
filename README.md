@@ -1,8 +1,6 @@
 # 📝DESCRIPTION
 A FiveM script that updates Discord Rich Presence with customizable player info like name, job, ID, health, armor, location, vehicle, and ping. It supports interactive buttons and text formatting, updating periodically with the latest player details.
 
-Showcase:
-
 # ✨FEATURES
 - Debug = true -- Enables or disables the debug mode. If true, debug messages are shown.
 - Locale = 'en' -- Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish
