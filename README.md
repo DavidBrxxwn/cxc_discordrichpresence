@@ -28,8 +28,8 @@ A FiveM script that updates Discord Rich Presence with customizable player info 
 
 # 🚨DEPENDENCY 
 - qb-core (QB-Core): https://github.com/qbcore-framework/qb-core
-- es_extended (ESX-Core): https://github.com/esx-framework/esx_core
 - qbx_core (Qbox) https://github.com/Qbox-project/qbx_core
+- es_extended (ESX-Core): https://github.com/esx-framework/esx_core
 - Discord Bot: https://discord.com/developers/applications
 
 # 📚HELPFUL LINKS
