@@ -33,5 +33,3 @@ Config.Armor = true -- Shows the player's armor if true.
 Config.StreetName = true -- Shows the street name if true.
 Config.Ping = true -- Shows the player's ping if true.
 Config.Vector4 = true -- Shows the player's location (coordinates) if true.
-
-
