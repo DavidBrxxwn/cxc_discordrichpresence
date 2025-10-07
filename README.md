@@ -26,10 +26,12 @@ A FiveM script that updates Discord Rich Presence with customizable player info 
 - Ping = true -- Shows the player's ping if true.
 - Vector4 = true -- Shows the player's location (coordinates) if true.
 
-# 🚨DEPENDENCY 
+# 📦FRAMEWORKS
 - qb-core (QBCore): https://github.com/qbcore-framework/qb-core
 - qbx_core (Qbox) https://github.com/Qbox-project/qbx_core
 - es_extended (ESX): https://github.com/esx-framework/esx_core
+
+# 🚨DEPENDENCY 
 - Discord Bot: https://discord.com/developers/applications
 
 # 📚HELPFUL LINKS
